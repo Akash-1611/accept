@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiring Requests</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Hiring Requests</h2>
+        <div class="friend-requests" id="friend-requests">
+            <!-- Cards will be populated here dynamically -->
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modal-image" src="" alt="Recruiter Image">
+            <h3 id="modal-name"></h3>
+            <p id="modal-details"></p>
+            <p id="modal-location"></p>
+            <p id="modal-date"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
